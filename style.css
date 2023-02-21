@@ -1,0 +1,77 @@
+.navv {
+  background-color: #596157;
+  color: white;
+  padding: 0;
+  height: 70px;
+}
+
+.main {
+  background-color: white;
+  color: #7E4E60;
+  padding: 25px;
+}
+
+/*.gutter {
+  
+}*/
+
+body {
+  background-color: #D7DAE5;
+}
+
+.name {
+  text-align: right; 
+  padding: 18px 15px; 
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #596157;
+}
+
+li {
+  float: left;
+  font-size: 15px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #C68866;
+  text-decoration: none;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+  align-items: center;
+}
+
+.right {
+  width: 70%;
+  align-items: center;
+}
+
+/* Logos row */
+.logos {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
