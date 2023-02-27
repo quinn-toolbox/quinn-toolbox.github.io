@@ -33,7 +33,7 @@ ul.navv-bar {
   background-color: #596157;
 }
 
-li {
+li.navv-list {
   float: left;
   font-size: 15px;
 }
@@ -54,9 +54,10 @@ li.navv-list a:hover {
 }
 
 /* Change the link color of posts */
-a.posts:link {
+a.posts:link, a.posts:visited {
   color:  #C68866;
 }
+
 
 /* Create two unequal columns that floats next to each other */
 .column {
